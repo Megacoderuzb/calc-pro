@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 400px;
+}
+.container {
+  margin: 0 auto;
+  width: 380px;
+  height: 600px;
+  border-radius: 3%;
+  background-color: rgb(255, 255, 255, 1);
+  padding: 1rem 1rem;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+section#input-place .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 1rem;
+  letter-spacing: -0.02em;
+}
+section#input-place span {
+  color: #fd8900;
+}
+section#input-place p {
+  text-align: right;
+  font-weight: 100;
+}
+section#numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+section#numbers .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section#numbers .btns {
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 700;
+  background-color: rgba(217, 217, 217, 1);
+}
+section#numbers .buttons:first-child .btns {
+  background-color: #fd8900;
+
+  color: #ffffff;
+}
+section#numbers .buttons .btns:last-child {
+  background-color: #fd8900;
+  color: #ffffff;
+}
+section#numbers .buttons .c-btns {
+  background-color: #fd8900;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  align-items: center;
+}
+section#numbers .buttons .big-btns {
+  width: 140px;
+  height: 75px;
+  background-color: rgba(217, 217, 217, 1);
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14%;
+}
